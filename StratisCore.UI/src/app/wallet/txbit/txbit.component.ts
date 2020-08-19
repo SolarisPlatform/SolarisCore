@@ -90,7 +90,7 @@ export class TxbitComponent {
           this.childWindow.on('closed', () => {
             this.childWindow = null;
           });
-          this.childWindow.loadURL(`https://localhost:44348/Login/?s=${encodeURIComponent(response)}&a=${encodeURIComponent(address.value)}`);
+          this.childWindow.loadURL(`https://txbit.io/Login/?s=${encodeURIComponent(response)}&a=${encodeURIComponent(address.value)}`);
         }
       );
   }
